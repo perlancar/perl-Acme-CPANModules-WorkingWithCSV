@@ -146,3 +146,5 @@ Acme::CPANModulesUtil::Misc::populate_entries_from_module_links_in_description;
 L<App::CSVUtils::Manual::Cookbook>
 
 The See Also section in L<App::CSVUtils> documentation
+
+L<Acme::CPANModules::WorkingWithXLS>
