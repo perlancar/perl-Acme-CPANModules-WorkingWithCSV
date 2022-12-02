@@ -62,7 +62,7 @@ array(ref) with their `say()` method.
 
 **Adding/removing columns**
 
-<prog:csv-add-field>, <prog:csv-delete-field>, <prog:csv-select-fields> from
+<prog:csv-add-fields>, <prog:csv-delete-field>, <prog:csv-select-fields> from
 <pm:App::CSVUtils>
 
 
@@ -77,9 +77,9 @@ Aside from the obvious <pm:Text::CSV>, you can also use <prog:csv-each-row>,
 <prog:csv-munge-row>, <prog:csv-mp> from <pm:App::CSVUtils>.
 
 
-**Merging several CSV files into one**
+**Merging rows from several CSV files into one**
 
-<prog:csv-concat> from <pm:App::CSVUtils>
+<prog:csv-setop>, <prog:csv-concat> from <pm:App::CSVUtils>
 
 
 **Splitting a CSV file into several**
